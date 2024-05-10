@@ -31,6 +31,7 @@ function JsonModalViewer ({ jsonData, modalIsOpen, setModalIsOpen}: JsonModalVie
               marginRight: '-50%',
               transform: 'translate(-50%, -50%)',
               width: '80%',
+              maxHeight: '80%',
               border: '1px solid #ccc',
               background: '#fff',
               overflow: 'auto',
